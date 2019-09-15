@@ -1,0 +1,18 @@
+Release And Renew Your IP Address
+
+Search CMD open  with adminstration
+
+ipconfig /release      
+then
+ipconfig /renew
+
+restart
+
+
+
+////// Reset TCP/IP
+
+netsh winsock reset
+then
+netsh int ip reset
+
